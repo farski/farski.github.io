@@ -13,6 +13,6 @@ With Alfred 2's workflows, a much more elegent solution is possible. We now have
 
 ![IP addresses in Alfred results](/images/alfred-ip.png)
 
-This workflow lists out the IP addresses for all of the machine's interfaces (real and virtual), and it hits an outside service (over HTTPS) to get the external IP as well. Selecting any of them from the list will copy the IP to your clipboard.
+This workflow lists out the IP addresses for all of the machine's interfaces (real and virtual), and it hits an outside service (over HTTPS) to get the external IP as well. Selecting one of them from the list will copy that IP to your clipboard.
 
 <a class="alfred download" href="/alfred/IP-Addresses.zip">Download this workflow</a>
