@@ -1,0 +1,117 @@
+header {
+  font-size: 14px;
+}
+
+header nav {
+  width: 620px;
+  margin: 10px auto;
+}
+
+header nav a {
+  text-decoration: none;
+  color: #888;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+}
+header nav a:hover {
+  color: black;
+}
+
+.posts {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  width: 620px;
+  margin: 50px auto;
+  list-style: none;
+  padding: 0;
+}
+
+.posts li {
+  font-weight: 200;
+  margin: 25px 0;
+  padding: 0;
+}
+
+.posts li a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.post hgroup {
+  width: 620px;
+  margin: 0 auto;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  border-bottom: 1px solid #bbb;
+}
+
+.post hgroup h1 {
+  font-weight: 200;
+  font-size: 1.5em;
+}
+
+.post hgroup h2 {
+  font-size: 1em;
+  font-weight: 100;
+}
+
+.post article {
+  width: 620px;
+  margin: 0 auto;
+  font-size: 20px;
+  font-weight: 200;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  margin-bottom: 200px;
+}
+
+.post article p {
+  line-height: 1.75em;
+}
+
+.post article p code {
+  background: #f4f4fc;
+}
+
+.post article h1 {
+  font-weight: 400;
+  font-size: 2em;
+}
+
+.post article h2 {
+  font-weight: 600;
+  font-size: 1.15em;
+}
+
+.post article h3 {
+  font-weight: 600;
+  font-size: 0.85em;
+  text-transform: uppercase;
+}
+
+.post article ol, .post article ul {
+  padding: 0;
+}
+
+.post article ol li, .post article ul li {
+  font-size: 0.875em;
+  font-weight: 400;
+  margin: 4px 0;
+  line-height: 1.75em;
+}
+
+.post article blockquote {
+  line-height: 1.5em;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 0.9em;
+}
+
+.post article blockquote p {
+  line-height: inherit;
+}
+
+.post article .highlight {
+  background: #f4f4fc;
+  padding: 1px 20px;
+  font-size: 0.75em;
+}
