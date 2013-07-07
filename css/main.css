@@ -69,6 +69,10 @@ header nav a:hover {
   margin-bottom: 200px;
 }
 
+.post article p img {
+  max-width: 620px;
+}
+
 .post article p {
   line-height: 1.75em;
 }
@@ -119,4 +123,20 @@ header nav a:hover {
   background: #f4f4fc;
   padding: 1px 20px;
   font-size: 0.75em;
+}
+
+.post article a.download {
+  display: block;
+  font-size: 2em;
+  font-weight: 300;
+  color: #345266;
+  text-decoration: none;
+  border: 1px dotted #aaa;
+  padding: 20px 30px 20px 90px;
+}
+
+.post article a.download.alfred {
+  background: url(/images/alfred-icon.png) no-repeat;
+  background-size: 52px 68px;
+  background-position: 10px 10px;
 }
