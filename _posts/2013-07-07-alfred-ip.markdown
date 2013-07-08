@@ -5,7 +5,7 @@ date:   2013-07-07 21:08:00
 categories: apple alfred
 ---
 
-One of my long-standing feature requests for Alfred was always an ability to generate arbitrary results for a given keyword. That would allow you to input a keyword, have a script run in the background, and then get a set of results based on the out of the script.
+One of my long-standing feature requests for Alfred was always an ability to generate arbitrary results for a given keyword. That would allow you to input a keyword, have a script run in the background, and then get a set of results based on the output of the script.
 
 The main reason I always wanted this was to make it easier to get a list of the computer's IP addresses. Alfred seemed like the perfect place for that kind of functionality. Lots of solutions existed for doing this in version 1 of Alfred, but generally they just copied the IP to the clipboard, or displayed it as a notificaiton.
 
