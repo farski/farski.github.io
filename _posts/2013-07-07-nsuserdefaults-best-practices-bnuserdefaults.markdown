@@ -7,6 +7,8 @@ categories: apple iOS
 
 Something I've noticed, after working on several of my own apps, dealing with existing apps at work, and looking at open source and example code, is that every has their own take on handling `NSUserDefaults`.
 
+<iframe src="http://ghbtns.com/github-btn.html?user=Bitnock&amp;repo=BNUserDefaults&amp;type=watch&amp;count=true&amp;size=large" allowtransparency="true" frameborder="0" scrolling="0" width="179" height="30"> </iframe>
+
 I suspect this is largely because `NSUserDefaults` is a fairly straight-forward API once you know how it works. Even though it requires some boilerplate, it's not enough to motivate improvement.
 
 At some point in the last few months, though, I realized I was working on three different projects that I mostly was responsible for myself, and even they did defaults and settings a bit differently. It's not like switching between them caused any problems, but it was noticeable. Not a red flag, but maybe a yellow flag?
