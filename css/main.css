@@ -28,7 +28,7 @@ header nav a:hover {
   width: 620px;
   margin: 50px auto;
   list-style: none;
-  padding: 0;
+  padding: 0 0 200px 0;
 }
 
 .posts li {
@@ -62,11 +62,10 @@ header nav a:hover {
 
 .post article {
   width: 620px;
-  margin: 0 auto;
+  margin: 0 auto 60px;
   font-size: 20px;
   font-weight: 200;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  margin-bottom: 200px;
 }
 
 .post article p img {
@@ -139,4 +138,9 @@ header nav a:hover {
   background: url(/images/alfred-icon.png) no-repeat;
   background-size: 52px 68px;
   background-position: 10px 10px;
+}
+
+#disqus_thread {
+  width: 620px;
+  margin: 0 auto;
 }
