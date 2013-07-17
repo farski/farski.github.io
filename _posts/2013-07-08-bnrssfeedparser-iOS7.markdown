@@ -7,7 +7,7 @@ categories: apple iOS
 
 `BNRSSFeedParser` is an RSS feed parser that I wrote for one of my apps. It provides a very low friction way of taking the URL of a feed and getting back an object with that feed and its items or entries. All of the HTTP handling and XML parsing is taken handled behinds the scenes.
 
-One assumption the library makes is that most of the time you will parsing a feed that you have seen before (ie, an update). To handle those situations, the parser accepts two argument: and Etag and a date. The Etag is used to prevent unnecessary network traffic when a feed hasn't been changed. The date acts as a kill-switch for the XML parser; once an item in the feed prior to the date has been reached, the parser stops parsing and assumes you already know about the rest of the data.
+One assumption the library makes is that most of the time you will parsing a feed that you have seen before (ie, an update). To handle those situations, the parser accepts two argument: an Etag and a date. The Etag is used to prevent unnecessary network traffic when a feed hasn't been changed. The date acts as a kill-switch for the XML parser; once an item in the feed prior to the date has been reached, the parser stops parsing and assumes you already know about the rest of the data.
 
 One of the new APIs in iOS 7 that many apps which do feed parsing will likely take advantage of is **background fetch**. Unlike previous versions of the OS, where you were limited to running your code only when your app was open, or for a few minutes after it went into the background, background fetch allows you to register your app for periodic arbitrary task execution.
 
