@@ -20,3 +20,7 @@ categories:
 ## Ten kilometers
 
 <iframe id="mapmyfitness_route" src="http://snippets.mapmycdn.com/routes/view/embedded/241525587?width=620&amp;height=400&amp;elevation=true&amp;line_color=E6634428&amp;rgbhex=284463&amp;distance_markers=1&amp;unit_type=metric&amp;map_mode=ROADMAP&amp;last_updated=2013-07-07T18:10:59-05:00" height="530px" width="100%" frameborder="0"> </iframe>
+
+## Twelve kilometers
+
+<iframe id="mapmyfitness_route" src="http://snippets.mapmycdn.com/routes/view/embedded/268816827?width=600&amp;height=400&amp;elevation=true&amp;line_color=E6634428&amp;rgbhex=284463&amp;distance_markers=1&amp;unit_type=metric&amp;map_mode=TERRAIN&amp;last_updated=2013-08-15T21:28:59-05:00" height="530px" width="100%" frameborder="0"> </iframe>
