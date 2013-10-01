@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Linking static libraries in a .xcconfig"
-date:   2013-10-01 01:10:00
+date:   2013-10-01 23:30:00
 categories: apple iOS
 ---
 
