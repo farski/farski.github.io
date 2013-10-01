@@ -30,3 +30,4 @@ Things become a bit more complicated when dealing with third-party static librar
     LIBRARY_SEARCH_PATHS = $(inherited) "$(SRCROOT)/Vendor/Google Analytics"
     OTHER_LDFLAGS = $(inherited) -framework CoreText -framework AdSupport -framework CoreVideo -framework CFNetwork -framework HockeySDK -framework Crashlytics -lz -lxml2 -lsqlite3 -L"$(SRCROOT)/Vendor/Google Analytics" -lGoogleAnalyticsServices
     
+For more information on these flags, you can look at the [documentation](https://developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man1/ld.1.html) for the `ld` linker command. It can be helpful to inspect the linker details found in the Log Navigator when trying to move settings from the project to a configuration file.
