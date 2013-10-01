@@ -5,7 +5,7 @@ date:   2013-10-01 01:10:00
 categories: apple iOS
 ---
 
-There are many reasons why you may choose to use configuration files (.xcconfig) to manage the build settings of a project. Recently I've been working on a that has many targets, but except for the name and info plist file, every other build setting was identical. This is a scenario where a single xcconfig file can make maintaining a suite of apps significantly easier.
+There are many reasons why you may choose to use configuration files (.xcconfig) to manage the build settings of a project. Recently I've been working on a project that has many targets, but, except for the name and info plist file, every other build setting was identical. This is a scenario where a single xcconfig file can make maintaining a suite of apps significantly easier.
 
 One of the trickier things to move out of the settings for the individual targets and into the configuration file was the libraries. Normally found under the **Build Phases** tab of a Target, frameworks and libraries can be added and removed from the **Link Binary With Libraries** panel. Having several identical targets would mean making sure every library and framework were added every target by hand, if there weren't a way to centralize that setup.
 
